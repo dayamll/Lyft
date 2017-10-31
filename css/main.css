@@ -1,0 +1,195 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Gotham SSm A, Gotham SSm B, HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+#main {
+    background-image: url(../assets/images/hero.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    background: transparent;
+}
+
+.espace {
+    padding: 18px 50px;
+}
+.posHeader{
+    position: fixed;
+    width: 100%;
+}
+.list {
+    display: inline-block;
+    float: right;
+    padding: 0 115px;
+    color: white;
+    font-size: 20px;
+}
+
+figure {
+    display: inline-block;
+}
+
+.edition img {
+    width: 65px;
+    padding: 20px;
+}
+
+.item {
+    display: inline-block;
+    padding: 30px 25px;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 18px;
+}
+
+.btn2 {
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 130px;
+    color: white;
+    background-color: fuchsia;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.btn3 {
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 130px;
+    color: rgb(119, 119, 226);
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.btn3:hover {
+    color: white;
+    background: fuchsia;
+}
+
+.control {
+    display: block;
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 20px;
+    line-height: 1;
+    color: rgb(83, 75, 75);
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(83, 75, 75);
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.changecolor {
+    color: darkslateblue;
+    font-weight: 700;
+    line-height: 0.7;
+    font-size: 30px;
+}
+
+.changecolor2 {
+    color: darkslateblue;
+    font-weight: 100;
+    line-height: 0.7;
+    font-size: 18px;
+}
+
+.firstSection {
+    background: #fff;
+    width: 580px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* seccion text-phone */
+.text-phone{
+    background-color:#52237b;
+    width: 100%;
+    padding: 5px;
+    display: inline-block    
+}
+.image-phone{
+    position: relative;
+    width:500px;
+    height:520px;
+    padding-right: 10px;
+}
+.box-phone {
+    position: relative;
+    width: 488px;
+    height: 547px;
+    display: inline-block;
+    left: 150px ;
+    top: 35px;
+}
+.text-box{
+    position: relative;
+    top: -55px;
+    left: 150px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+        
+}
+.subtittle,.text-subtitle{
+    color:wheat;
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.subtitle{
+    font-size:1.75rem;
+}
+.text-subtitle{
+    font-size:1.05rem;
+}
+.threesections {
+    background: white; 
+}
+.video1 {
+    float: right;
+}
+.text2 {
+    float: left;
+    font-size:20px;
+    line-height: 1.5;
+    padding: 25px 60px;
+}
+.text3 {
+    float: right;
+    font-size:20px;
+    line-height: 1.5;
+    padding: 25px 60px;
+}
+.titles {
+    padding-bottom: 25px;
+}
+.microtitle {
+    font-size: 12px;
+}
+.texts {
+    font-size: 17px;
+    color: rgb(49, 47, 47);
+}
+.video3 {
+    float: right;
+}
