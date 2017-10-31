@@ -2,14 +2,19 @@
  * Estilos de tu proyecto
  */
 
-* {
+ * {
     margin: 0px;
     padding: 0px;
-    font-family: Gotham SSm A, Gotham SSm B, HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+body {
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333447;
 }
 
 #main {
-    background-image: url(../assets/images/hero.gif);
+    background-image: url(../assets/images/lyft1.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +24,6 @@
 .container {
     background: transparent;
 }
-
 .espace {
     padding: 18px 50px;
 }
@@ -114,8 +118,9 @@ figure {
 .firstSection {
     background: #fff;
     width: 580px;
-    height: 100%;
-    padding: 20px;
+    height: 400px;
+    padding: 40px;
+    margin-top: 120px;
     box-sizing: border-box;
     float: right;
 }
@@ -192,4 +197,48 @@ figure {
 }
 .video3 {
     float: right;
+}
+.floor{
+    background: #333447;
+    width: 100%;
+}
+.first-colum, .second-colum, .third-colum{
+    text-align: justify;
+    display: inline-block;
+    padding: 60px;
+    position: relative;
+    left:40px;
+}
+.options{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 17px;
+    color: wheat;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    line-height: 32px;
+    display: inline-block;
+}  
+ul li:first-child{
+    font-weight: 800;
+    color: white;
+    font-size: 18px;
+}  
+.four-colum{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    right: -350px;
+    top: 30px; 
+    line-height: 25px; 
+}
+.apple,.google,.microsoft{
+    
+    width: 161px;
+    height: 58px;
+    
+}
+.text-footer{
+    text-align: center;
+    color: white;
 }
