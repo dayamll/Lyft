@@ -60,6 +60,10 @@ li {
 
 .li-right {
     transform: translateY(-50%);
+    color: white;
+}
+.li-right:hover {
+    color: #FF00BF;
 }
 
 .li-right a {
@@ -103,7 +107,7 @@ section {
     float: right;
     height: 400px;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: 130px;
     width: 580px;
 }
 
@@ -282,7 +286,7 @@ div.foot {
     height: 235px;
     box-sizing: border-box;
     padding-top: 21px;
-    line-height: 1.4;
+    line-height: 2;
 }
 
 div.image {
