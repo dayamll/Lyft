@@ -1,6 +1,4 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos de tu proyecto*/
 
 * {
     margin: 0px;
@@ -16,7 +14,6 @@ body {
 .text-uppercase {
     text-transform: uppercase;
 }
-
 
 /*Estilos para Navegador */
 
@@ -86,7 +83,6 @@ a img {
 .lyft {
     width: 700px;
 }
-
 
 /*Primera parte del body*/
 
@@ -166,7 +162,6 @@ h1 {
     color: white;
     background: fuchsia;
 }
-
 
 /* seccion text-phone */
 
