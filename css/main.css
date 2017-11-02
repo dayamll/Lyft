@@ -92,7 +92,7 @@ a img {
 
 section {
     width: 100%;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .btn {
@@ -271,6 +271,7 @@ footer {
     padding-left: 100px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    overflow: auto;
 }
 
 div.footer {
