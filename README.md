@@ -32,3 +32,8 @@ Se replico la plantilla inicial con los recursos que se nos brindo en el archivo
 * Uso de manera correcta las clases reutilizables y lo de uso comun. 
 
 * El codigo de HTML y de CSS(estilos), debe estar entendible, es decir, debe ser legible y facil entendimiento en caso de que alguien aparte de los creadores deseen entender lo editado.
+
+El reto consiste en replicar el sitio de **Lyft**, este será el resultado
+a lograr:
+
+![Lyft Website](docs/fullpage.png)
